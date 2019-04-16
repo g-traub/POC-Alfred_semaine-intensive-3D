@@ -1,0 +1,53 @@
+@keyframes inOut {
+  from{
+    transform: scale(1);
+    opacity: 0;
+  }
+  50%{
+    transform: scale(1.3);
+    opacity: 1;
+  }
+  to{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+body{
+  height:100vh;
+}
+.heading{
+  height:220px;
+  width:90vw;
+  margin: 0 auto;
+}
+.logo{
+  width: 100%;
+}
+video, canvas{
+  right: 0;
+  position: absolute;
+  width:100vw;
+  height:1660px;
+}
+main{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:1390px;
+}
+
+.square{
+  width: 50vw;
+}
+.subtitle{
+  text-align: center;
+  font-size:3rem;
+}
+.hand{
+  width:50px;
+  position: absolute;
+  bottom: 520px;
+  animation: inOut 2s ease-in-out infinite;
+}
