@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/g-traub/semaine-intensive-3D#readme",
   "dependencies": {
-    "@google-cloud/vision": "^0.25.0"
+    "@google-cloud/vision": "^0.25.0",
+    "http": "0.0.0"
   }
 }

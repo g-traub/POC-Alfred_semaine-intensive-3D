@@ -7,7 +7,7 @@ async function deleteProduct(){
 
   const projectId = 'project-terminal-shopping';
   const location = 'europe-west1';
-  const productId = 'SHIRT_003';
+  const productId = 'SHIRT_002';
 
   // Resource path that represents full path to the product.
   const productPath = client.productPath(projectId, location, productId);
