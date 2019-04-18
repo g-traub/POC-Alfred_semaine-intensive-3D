@@ -51,7 +51,12 @@ function assets() {
   .pipe(dest('dist/assets'))
 }
 
+function build(){
+  return src('./src/Build')
+  .pipe(dest('dist/'))
+}
+
 const watcher = () => watch('src/**/*.*', series(html, css, js, reload));
 
-exports.dev = series(clean, html, css, js, assets, serve, watcher);
-exports.build = series(html, css, js, assets);
+exports.dev = series(clean, html, css, js, build, assets, serve, watcher);
+exports.build = series(html, css, js, assets, build);

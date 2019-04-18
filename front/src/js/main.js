@@ -1,7 +1,7 @@
 //Video variables
 var streaming = false,
-  video = document.querySelector("video"),
-  canvas = document.querySelector("canvas"),
+  video = document.querySelector("#videoPhoto"),
+  canvas = document.querySelector("#canvasPhoto"),
   photo = document.querySelector("#photo");
 
 navigator.getMedia =
@@ -31,7 +31,6 @@ navigator.getMedia(
 
 
 function takepicture() {
-  console.log('click');
   canvas.getContext("2d").drawImage(video, 0, 0, canvas.width, canvas.height);
   var data = canvas.toDataURL("image/png");
   setTimeout(()=>{
