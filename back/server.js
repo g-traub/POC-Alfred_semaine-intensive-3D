@@ -3,8 +3,15 @@ const http = require("http");
 
 const hostname = '127.0.0.1';
 const port = 8000;
+let product = '';
 
 const server = http.createServer((req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  if (req.method === 'OPTIONS'){
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+    res.end();
+  }
   if (req.method === 'POST'){
     let body = '';
     req.on('data' , chunk => {
@@ -14,8 +21,13 @@ const server = http.createServer((req, res) => {
     //saves file locally
     let base64Data = body.replace(/^data:image\/png;base64,/, "");
     /* fs.writeFile('./snaps/test.png', base64Data, {encoding: 'base64'}, () =>console.log('OK')); */
-     getSimilarProductsFile(base64Data);
-     res.end();
+     getSimilarProductsFile(base64Data)
+     .then(function (){
+      console.log(`product : ${product}`);
+      res.writeHead(200);
+      res.write(product);
+      res.end();
+     })
     });
   }
 });
@@ -61,9 +73,10 @@ async function getSimilarProductsFile(image64) {
   });
   /* console.log('Search Image:', filePath); */
   const results = response['responses'][0]['productSearchResults']['results'][0];
-  console.log('\nSimilar product information:\n');
-  console.log('Product id:', results['product'].name.split('/').pop(-1));
+  const productId = results['product'].name.split('/').pop(-1);
+  /* console.log('Product id:', productId);
   console.log('Product display name:', results['product'].displayName);
   console.log('Product description:', results['product'].description);
-  console.log('Product category:', results['product'].productCategory);
+  console.log('Product category:', results['product'].productCategory); */
+  product = productId;
 }

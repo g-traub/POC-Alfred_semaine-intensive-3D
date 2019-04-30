@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "project-terminal-shopping",
+  "private_key_id": "40dfd5c3b1c967c4ced25a471614134c260df3d8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDOiUe1H6fTD//A\n2SdbHr2tX2VTdf9SyYFfkGgZLJw5XHy2/yEaVLvGRiBu6wN1l4y4P82u1gkNw6i4\nDwNR0iKW8t6JDu5nenOJrVa35PimNIQuATxVbJ0jRVTPXMb30+agQqitZiQ5SGmQ\n67OURRact/h4ICAF6qeSgujmj4wtTK1ctOmpOUxOPsr4/xKYsVNCO5vQuYtltLV8\nyED8oInPoLByeIEeM4/2TAAAd9R61ivmp21pQ7PsuMXJSz8EwNIxnxBMhVi22N+h\nVN002il7yu2hQQd4wZn4m/z0vgnhrxApz4dZbCAQmeov2GD4zFMlYpviWd0rjEBW\nZ7MwwP4vAgMBAAECggEABbO8I0s48P+8JoWBa7nP5u6IYNVvgVqL2J/LzIWOauPb\nk5oXvoO3FEt+6wWZlBB3jwpkex6VNh8kr6+h2ebMphoVcy5AR3TxOBWkHFaeV6Rc\n0ZJVlynitilcgEXz0Jmjt07UZTSVNd45ki5XtdDf6k0G0uPp4LSC27a59YMG6Tc1\nGDeFfFhIHh/1bafk4USY2hPA8NUxulIuawuGN2npEvxN4mUZCzLZXml6XsianV19\nxPnZ2OuYVLnV9GHy03PbOcGCWjR8TQUMbUkDV2K7MRzDrRkAWP46lW2uh2NdHMBC\nRFSKchlW54CzrzDJfKHdw/Y3XOAzLE+1dUhPd5CWJQKBgQDrfx3HNSn0ESSIKzYp\nQQu8qUJ/SKVAfRxxsAoFkeHzjBrUY9FzicjqMlsGfOGfo/XKS2Ei3OYzlPDEFmhE\nmdDLl4uMhv0YJoR0JNWOSdHX7ZPCh0pO4eT5LyIUjnd2ueXc9HS6dYqMPyu2OBVl\nDF39UIJPb5qzaup7OmEH3d+6kwKBgQDghK4MBsOYDWP6ZaAMDe987vjTcQIIQY1g\nf+nx33P8GS9edahLcDDhjp9bhvxvUXMaqmq1ZzPrUnOyB/Q9iW643o2KtFglWNkN\nDq6JbVTcreeU6Z703Qnc1gLAcJllICyKmBv7TFlV2VlMEOuGdef3ug6Rw4GuIcTm\nwRU1AgsDdQKBgQDlf9AJXyovjLVJbrMtqRJDHcCMQsOpAURDFwftPaoxqwxKh6yL\nKHAArGpA/Fr1NNhH+QYE77n38uJgdmXO1QfCIUICBVuJuZ/DgFIOhKpYAFPLdAVa\nspJutRxFZEHQFoKIvkMzo3EOFFIJFsbi3xaJ03fq6hydVUiGJvKAtB1guQKBgQCI\ntSFJH2E/l3+1+uU+EcouV1BZZukm38tW4+wuI7J64VbvfFLSRGjvHqm30HSqz3x3\n0yaQeFurwRPDZoZ4ZdNua8zhlThK3VOkWLk74r+Wc6mcCbiJPoH/3qvkQ2uToMie\nR0padL28wVBXOcI/qFFrjPXMGbA/uD4th4oDMdBE9QKBgQCtRYy+/gIKwMCXHCxQ\nwxueA1h9JIM2TCYTL9kWftvxShoQrhfKZOwFBdcIbRhtpKf2XQdJ/9qBEJVNCBS6\nZ8mOVmO1zIB0k4Dl2gwqogfbZxl9hc5N7rBqZaVqbWmcxeN0n3hrPBHXv//FH1La\nDi6sSf4VkU6rEJxXmzHAj90FzA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "shopping-terminal@project-terminal-shopping.iam.gserviceaccount.com",
+  "client_id": "101785190031201959277",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/shopping-terminal%40project-terminal-shopping.iam.gserviceaccount.com"
+}
